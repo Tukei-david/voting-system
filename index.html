@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="election-seats">
+            <form action="" method="post">
+                <div>
+                    <label for="seat-name">Full Name</label><br>
+                    <input type="text" name="seat-name" id="seat-name">
+                </div>
+                <div>
+                    <label for="seats">Your running seat</label><br>
+                    <select name="seats" id="seats">
+                        <option value="Chairman">Chairman</option>
+                        <option value="Secretary">Secretary</option>
+                        <option value="Treasurer">Treasurer</option>
+                        <option value="Project Manager">Project Manager</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="speech">How do you deserve the seat</label><br>
+                    <textarea name="speech" id="speech" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="display-seats">
+            <div class="elect-seat">
+                <img src="img/img.png" alt="" width="150px" class="seat-pic">
+                <h3 class="elect-name">Tukei David</h3>
+                <p class="vied-seat">Chairman</p>
+                <p class="seat-des">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, magnam eum blanditiis quo nam nihil vitae error veniam cupiditate, nemo quas consequatur maxime voluptatum. Nesciunt inventore perspiciatis at fugit ex.
+                </p>
+            </div>
+            <div class="elect-seat">
+                <img src="img/img.png" alt="" width="150px" class="seat-pic">
+                <h3 class="elect-name">Tukei David</h3>
+                <p class="vied-seat">Chairman</p>
+                <p class="seat-des">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, magnam eum blanditiis quo nam nihil vitae error veniam cupiditate, nemo quas consequatur maxime voluptatum. Nesciunt inventore perspiciatis at fugit ex.
+                </p>
+            </div>
+            <div class="elect-seat">
+                <img src="img/img.png" alt="" width="150px" class="seat-pic">
+                <h3 class="elect-name">Tukei David</h3>
+                <p class="vied-seat">Chairman</p>
+                <p class="seat-des">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, magnam eum blanditiis quo nam nihil vitae error veniam cupiditate, nemo quas consequatur maxime voluptatum. Nesciunt inventore perspiciatis at fugit ex.
+                </p>
+            </div>
+            <div class="elect-seat">
+                <img src="img/img.png" alt="" width="150px" class="seat-pic">
+                <h3 class="elect-name">Tukei David</h3>
+                <p class="vied-seat">Chairman</p>
+                <p class="seat-des">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, magnam eum blanditiis quo nam nihil vitae error veniam cupiditate, nemo quas consequatur maxime voluptatum. Nesciunt inventore perspiciatis at fugit ex.
+                </p>
+            </div>
+        </div>
+        <div class="users-section">
+            <form action="" method="post">
+                <div>
+                    <label for="user-name">Full Name</label><br>
+                    <input type="text" name="user-name" id="user-name">
+                </div>
+                <div>
+                    <label for="chair-seats">Chairman options</label><br>
+                    <select name="chair-seats" id="chair-seats">
+                        <option value="Tukei David">Tukei David</option>
+                        <option value="Lopuno james">Lopuno james</option>
+                        <option value="Salim Abdul">Salim Abdul</option>
+                        <option value="Ekai Peter">Ekai Peter</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="sec-seats">Secretary options</label><br>
+                    <select name="sec-seats" id="sec-seats">
+                        <option value="Lopuno james">Lopuno james</option>
+                        <option value="Tukei David">Tukei David</option>                        
+                        <option value="Salim Abdul">Salim Abdul</option>
+                        <option value="Ekai Peter">Ekai Peter</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Treas-seats">Treasurer options</label><br>
+                    <select name="Treas-seats" id="Treas-seats">
+                        <option value="Lopuno james">Lopuno james</option>
+                        <option value="Tukei David">Tukei David</option>                        
+                        <option value="Salim Abdul">Salim Abdul</option>
+                        <option value="Ekai Peter">Ekai Peter</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
