@@ -4,3 +4,108 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+:root {
+    --hue-neutral: 200;
+}
+
+body {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 40%, 40%);
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+    max-width: 80%;
+    padding: 50px 15px;
+}
+
+.election-seats, .users-section {
+    padding: 15px 0;
+    width: 500px;
+    margin: auto;
+}
+
+/* .election-seats form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+} */
+
+form input, 
+form textarea, 
+form select {
+    width: 100%;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    margin: 15px 0;
+}
+
+form label {
+    color: #fff;
+}
+
+form select option {
+    color: rgb(51, 48, 48);
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(51, 48, 48);
+    border-color: rgb(51, 48, 48);
+    transition: ease-in-out 0.5s;
+}
+
+.display-seats {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.elect-seat {
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.seat-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.elect-name {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+
+.vied-seat {
+    color: #fff;
+}
+
+.seat-des {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0;
+}
